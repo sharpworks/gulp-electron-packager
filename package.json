@@ -1,0 +1,29 @@
+{
+  "name": "gulp-electron-packager",
+  "version": "1.0.0",
+  "description": "A small wrapper around electron-packager allowing it to be used in a gulp task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharpworks/gulp-electron-packager.git"
+  },
+  "keywords": [
+    "electron",
+    "packager",
+    "gulp"
+  ],
+  "author": "Tom Sharp <tom@sharp.works> (http://sharp.works)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharpworks/gulp-electron-packager/issues"
+  },
+  "homepage": "https://github.com/sharpworks/gulp-electron-packager#readme",
+  "dependencies": {
+    "electron-packager": "^5.2.0",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.0"
+  }
+}
